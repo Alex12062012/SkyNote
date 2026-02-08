@@ -1,0 +1,30 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond dégradé -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Cercle de fond -->
+  <circle cx="100" cy="100" r="90" fill="url(#gradient)"/>
+  
+  <!-- Livre stylisé -->
+  <rect x="60" y="70" width="80" height="60" rx="4" fill="white" opacity="0.9"/>
+  
+  <!-- Pages du livre -->
+  <line x1="100" y1="70" x2="100" y2="130" stroke="#667eea" stroke-width="2"/>
+  <line x1="70" y1="85" x2="90" y2="85" stroke="#667eea" stroke-width="2" opacity="0.5"/>
+  <line x1="70" y1="95" x2="90" y2="95" stroke="#667eea" stroke-width="2" opacity="0.5"/>
+  <line x1="70" y1="105" x2="90" y2="105" stroke="#667eea" stroke-width="2" opacity="0.5"/>
+  <line x1="70" y1="115" x2="90" y2="115" stroke="#667eea" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Éclair/étoile (IA) -->
+  <polygon points="115,80 120,95 135,95 123,103 128,118 115,110 102,118 107,103 95,95 110,95" 
+           fill="#fbbf24" stroke="white" stroke-width="2"/>
+  
+  <!-- Texte "R" -->
+  <text x="100" y="170" font-family="Arial, sans-serif" font-size="48" font-weight="bold" 
+        fill="white" text-anchor="middle">R</text>
+</svg>
